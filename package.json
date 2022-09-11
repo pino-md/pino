@@ -11,7 +11,7 @@
     },
     "scripts": {
         "start": "node index.js",
-        "mongo": "node . -- db 'mongodb+srv://pinomd:8aegpx9ZJhmNJQDk@cluster0.9t5ly1w.mongodb.net/?retryWrites=true&w=majority
+        "mongo": "node . --db 'mongodb+srv://pinomd:8aegpx9ZJhmNJQDk@cluster0.9t5ly1w.mongodb.net/?retryWrites=true&w=majority
 ",
         "test": "node test.js",
         "test2": "nodemon index.js --server --autocleartmp"
