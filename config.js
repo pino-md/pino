@@ -4,9 +4,7 @@ let chalk = require('chalk')
 owner = [
   ['628895377665'],
   ['6288221394653'],
-  ['628891753051'],
   ['6288221394653', 'BOT RPG', true],
-  ['628891753051', 'TES SC', true],
   ['628895377665', 'OWNER', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
@@ -25,6 +23,7 @@ APIs = { // API Prefix
   bsbt: 'https://bsbt-api-rest.herokuapp.com',
   zahir: 'https://zahirr-web.herokuapp.com',
   zeks: 'https://api.zeks.me',
+  pino: 'https://docs-pinomodz.herokuapp.com',
   hardianto: 'https://hardianto-chan.herokuapp.com',
   pencarikode: 'https://pencarikode.xyz', 
   LeysCoder: 'https://leyscoders-api.herokuapp.com',
@@ -55,6 +54,7 @@ global.APIKeys = { // APIKey Here
   'https://zahirr-web.herokuapp.com': 'zahirgans',
   'https://bsbt-api-rest.herokuapp.com': 'benniismael',
   'https://api.zeks.me': 'apivinz',
+  'https://docs-pinomodz.herokuapp.com': 'kontol',
   'https://hardianto-chan.herokuapp.com': 'hardianto',
   'https://pencarikode.xyz': 'pais', 
   'https://leyscoders-api.herokuapp.com': 'MIMINGANZ', 
