@@ -49,7 +49,7 @@ const defaultMenu = {
 ╟📅*𝐓𝐚𝐧𝐠𝐠𝐚𝐥:* %date
 ╟🕔*𝐔𝐩𝐭𝐢𝐦𝐞:* %uptime (%muptime)
 ╟👨‍👨‍👧‍👧*𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐁𝐘:*
-╟ https://chat.whatsapp.com/BP4sCRPHudDGtSOjQvXTGH
+╟ https://chat.whatsapp.com/CnxVBXsAxSS4XNCQecdVrM
 ╚»★★ミ✧･ﾟ: ✧ﾟ･:
 👤𝐔𝐬𝐞𝐫𝐧𝐚𝐦𝐞: %name
 📊𝐋𝐢𝐦𝐢𝐭𝐦𝐮: %limit
@@ -59,7 +59,7 @@ const defaultMenu = {
   header: '⃝▣──「 %category 」───⬣',
   body: '│ ○ %cmd %islimit %isPremium',
   footer: '▣────────────⬣\n',
-  after: `𝙼𝙰𝙳𝙴 𝚆𝙸𝚃𝙲𝙷 ❤ 𝚙𝚒𝚗𝚘𝚖𝚍\n*Baca Rules Sebelum Pake*`,
+  after: `𝙼𝙰𝙳𝙴 𝚆𝙸𝚃𝙲𝙷 ❤ 𝚙𝚒𝚗𝚘𝚖𝚍`,
 }
 let handler = async (m, { conn, usedPrefix: _p }) => {
   try {
