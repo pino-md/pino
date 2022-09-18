@@ -17,13 +17,14 @@ let [number, pesan] = text.split `|`
     conn.reply(m.chat, logs, m)
 }
 handler.command = /^(kirim|pesan)$/i
+handler.help = ['kirim']
+handler.tags = ['fun']
 handler.rowner = false
 handler.limit = true
 handler.premium = false
 handler.group = false
 handler.private = false
 
-handler.tags = [fun]
 handler.admin = false
 handler.botAdmin = false
 
