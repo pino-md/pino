@@ -16,17 +16,17 @@ let [number, pesan] = text.split `|`
     let logs = `[!] Berhasil mengirim pesan wa ke nomor ${korban}`
     conn.reply(m.chat, logs, m)
 }
-handler.command = /^(pesan)$/i
+handler.command = /^(kirim|pesan)$/i
 handler.rowner = false
 handler.limit = true
 handler.premium = false
 handler.group = false
 handler.private = false
 
+handler.tags = [fun]
 handler.admin = false
 handler.botAdmin = false
 
 handler.fail = null
-handler.limit = false
 
 module.exports = handler
