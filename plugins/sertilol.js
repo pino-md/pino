@@ -7,4 +7,5 @@ handler.help = ['toloserti', 'fuckboy', 'fuckgirl', 'bucinserti', 'goodboy', 'go
 handler.tags = ['serti']
 handler.command = /^(toloserti|fuckboy|fuckgirl|bucinserti|goodboy|goodgirl|badboy|badgirl)$/i
 
+handler.limit = true
 module.exports = handler
