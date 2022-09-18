@@ -6,7 +6,7 @@ conn.sendMessage(m.chat, {
     index: 1,
     urlButton: {
       displayText: `Group BOT`,
-      url: 'https://chat.whatsapp.com/BP4sCRPHudDGtSOjQvXTGH'
+      url: 'https://chat.whatsapp.com/CnxVBXsAxSS4XNCQecdVrM'
     }
   }],
   footer: wm
